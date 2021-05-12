@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1354405536",
+    "project_id": "shestrong-cd26b",
+    "storage_bucket": "shestrong-cd26b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1354405536:android:19874576d3bac5ca939bc5",
+        "android_client_info": {
+          "package_name": "com.example.womensafetyshestrong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1354405536-4u80tv09uba1s2abmcs9plb52gbqs11t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM1ror8mROimBTbxlDkDXQ6n6IS1WMvEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1354405536-4u80tv09uba1s2abmcs9plb52gbqs11t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

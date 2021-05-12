@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/akronim</item>
+        <item>@font/alegreya_sans_sc_bold_italic</item>
+        <item>@font/alegreya_sans_sc_thin</item>
+        <item>@font/alex_brush</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/amarante</item>
+        <item>@font/amaranth</item>
+        <item>@font/amaranth_italic</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/asset</item>
+        <item>@font/atomic_age</item>
+        <item>@font/audiowide</item>
+        <item>@font/baloo</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/butcherman</item>
+        <item>@font/creepster</item>
+        <item>@font/new_rocker</item>
+        <item>@font/sarina</item>
+        <item>@font/schoolbell</item>
+        <item>@font/titan_one</item>
+        <item>@font/waiting_for_the_sunrise</item>
+    </array>
+</resources>

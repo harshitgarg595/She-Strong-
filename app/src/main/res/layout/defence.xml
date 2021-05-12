@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/defencebg"
+    android:scrollbarSize="20sp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/defencebg"
+        android:padding="0.5dp"
+        tools:context=".dashboard">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="310dp"
+            android:layout_height="291dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginRight="51dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/memorize" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="332dp"
+            android:layout_height="219dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            app:srcCompat="@drawable/attack1" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="375dp"
+            android:layout_height="384dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            app:srcCompat="@drawable/grab" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="350dp"
+            android:layout_height="372dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:srcCompat="@drawable/after" />
+
+        <TextView
+
+            android:id="@+id/txt"
+            android:layout_width="352dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginRight="68dp"
+            android:gravity="center"
+            android:text="Defence Techniques"
+            android:textColor="#C51A50"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/aclonica"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.42"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="369dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/defencebghead"
+            android:gravity="center"
+            android:text="Memorize the vulnerable places"
+            android:textColor="#C51162"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/new_rocker"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="338dp"
+            android:layout_height="175dp"
+            android:layout_marginBottom="13dp"
+            android:gravity="center"
+            android:text="It doesn't matter how big or heavy your attacker is because you can beat anyone if you know where the most vulnerable spots are. The main ones are the eyes, nose, throat, chest, knees, and groin.  You can attack in any way you want, but to be on the safe side, you need to remember that the most effective moves are aimed at these areas."
+            android:textColor="#B3E5FC"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toTopOf="@+id/textView14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="318dp"
+            android:layout_height="114dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="The simplest and most effective moves:"
+            android:textColor="#E1BEE7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/new_rocker"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="One of the best moves that will make any giant whimper or drop to his knees is grabbing the wrist. Grab his little finger and his ring finger with one hand, and his middle and index finger with the other and bend the wrist forward."
+            android:textColor="#FFE0B2"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="If you can't grab your opponent's hand, hit him with a fist or with a finger between the collarbones or into his Adam's apple. This will allow you to disorient your opponent enough that it will take him a long time to come back to his senses."
+            android:textColor="#FFF9C4"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="301dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="The most obvious area for an attack is the groin"
+            android:textColor="#E1BEE7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/new_rocker"
+            app:layout_constraintBottom_toTopOf="@+id/imageView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="332dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="All self-defense courses advise aiming for this area.  Hitting this area will literally paralyze the attacker and you will have just enough time to escape."
+            android:textColor="#B2DFDB"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="364dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:text="If you were grabbed from the front:"
+            android:textColor="#D1C4E9"
+            android:textSize="20sp"
+            app:fontFamily="@font/new_rocker"
+            app:layout_constraintBottom_toTopOf="@+id/imageView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="285dp"
+            android:layout_height="104dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:gravity="center"
+            android:text="If you were grabbed from the front and you can't lift your hands, do the following: move your hands forward and make a fist in front of your pelvis. This will create enough room between you and the attacker. "
+            android:textColor="#F48FB1"
+            app:layout_constraintBottom_toTopOf="@+id/textView21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="326dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="After that, hit the attacker's nose with your forehead. This will make the attacker move away from you. Now hit him in the groin with your knee."
+            android:textColor="#80CBC4"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
